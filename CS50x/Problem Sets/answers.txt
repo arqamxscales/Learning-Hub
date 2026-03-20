@@ -1,0 +1,12 @@
+sort1 uses: Merge Sort
+
+How do you know?: Explanation: sort1 is consistently fast on all input files, including large reversed files, indicating a divide-and-conquer algorithm like merge sort.
+
+sort2 uses: Bubble Sort
+
+How do you know?: Explanation: sort2 is very slow on reversed inputs due to repeated adjacent swaps but slightly faster on already sorted inputs, characteristic of bubble sort.
+
+sort3 uses: Selection Sort
+
+How do you know?: Explanation: sort3 performs consistently O(n²) across all inputs because it selects the minimum each iteration, swapping once, which matches selection sort behavior.
+
